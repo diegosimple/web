@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.carrossel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 550px; /* Defina o tamanho do carrossel aqui */
+  margin: 0 auto;
+}
+
+.carrossel {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+}
+
+.carrossel img {
+  width: 100%;
+  height: 550px;
+  border-radius: 10px; /* Define o raio dos cantos arredondados aqui */
+  object-fit: cover;
+}
